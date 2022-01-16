@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-rbr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        body{
+            background-image: url(fundo.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .balao{
+            background-image: url("png-transparent-purple-balloon-illustration-balloon-purple-purple-balloon-violet-color-magenta.png");
+            background-size: cover;
+            margin-top: 50px;
+            width: 40px;
+            height: 60px;
+            background-color: #000;
+            border-radius: 20px;
+            position: absolute;
+        }
+        h3{
+            font-family: Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        button{
+            position: relative;
+            font-size: 30px;
+            width: 200px;
+            height: 90px;
+            background: #e5b9ff;
+            color: #fff;
+            border: 1px solid #eee;
+            border-radius: 20px;
+            box-shadow: 5px 5px 5px #eee;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.363);
+        }
+
+    </style>
+
+    <script src="script.js"></script>
+</head>
+<body">
+    <h3 id="pontuacao"></h3>
+    <button onclick="startGame()" class=".btn-holder">Iniciar</button>
+</body>
+</html>
